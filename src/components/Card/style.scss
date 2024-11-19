@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Benzin-Bold";
+  src: url("../../assets/fonts/Benzin-Bold.ttf") format("truetype"); /* Измените путь, если нужно */
+  font-weight: bold;
+  font-style: normal;
+}
+
+.card {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  &__date {
+    color: #ccd1d9;
+    padding-left: 32px;
+    font-family: "Benzin-Bold", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  &__inner {
+    padding: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    min-height: 250px;
+    display: flex;
+    align-items: end;
+
+    &__title {
+      color: #f5f7fa;
+      font-family: "Benzin-Bold", sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 23.41px;
+    }
+
+    &__subtitle {
+      color: #f5f7fa;
+      font-family: SF Pro Display;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 20.29px;
+    }
+
+    &__time {
+      margin-top: 8px;
+      font-family: SF Pro Display;
+      font-size: 15px;
+      font-weight: 400;
+      color: #aab2bd;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}
