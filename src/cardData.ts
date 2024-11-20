@@ -98,7 +98,7 @@ export const cardData: Card[] = [
     subtitle: "Тренировка для окрепших любителей среднего уровня и выше",
     time: 25,
     date: "Cб, 30 ноября", 
-    bgImage: bg3
+    bgImage: bg4
   },
   {
     id: 12,
